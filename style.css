@@ -1,9 +1,23 @@
 .bg {
-  background-color: black;
+  background-color: rgb(56, 56, 56);
 }
 .tx {
     color: greenyellow;
 }
 .img {
     width: 300px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  width: 100%;
+  background-color:rgb(56, 56, 56);
+  color: greenyellow;
+  border:0;
+}
+.button:focus {
+  cursor: pointer;
+  background-color: grey;
 }
