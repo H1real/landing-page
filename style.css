@@ -1,6 +1,9 @@
 .bg {
   background-color: rgb(56, 56, 56);
 }
+.header {
+  background-color: rgb(0, 0, 0);
+}
 .tx {
     color: greenyellow;
 }
@@ -13,11 +16,19 @@
 }
 .button {
   width: 100%;
-  background-color:rgb(56, 56, 56);
   color: greenyellow;
   border:0;
 }
 .button:focus {
   cursor: pointer;
   background-color: grey;
+}
+
+.h1 {
+  color: greenyellow;
+  border:0;
+}
+.db {
+  color: white;
+  border:0;
 }
