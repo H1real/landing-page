@@ -2,24 +2,19 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="./src/index.js"></script>
     </head>
     <body class="bg">
         <div class="header">
             <h1 class="tx">Hello this is H1real page.</h1>
             <div class="container">
-                <a href="index.html" class="button">Home page</a>
+                <button onclick="changeContent(event.target.innerText)"  class="button">Home page</button>
                 <a href="pages/about.page.html" class="button">About page</a>
                 <a href="pages/contact.me.page.html" class="button">contact page</a>
             </div>
         </div>
-        
+         <div id="content">
 
-        <h3 class="tx">I would like you to try this  <a href="https://www.coolmathgames.com/0-powerline-io?utm_content=CTA_You_Will_Also_Like">link text</a></h3>
-        <img class="img" src="img/Powerline_OG-logo.jpg">
-        <div>
-            <label for="answer">put answer here</label>
-            <input type="number" id="answer"/>
-            <button>check answer</button>
-        </div>
+         </div>        
     </body>
 </html>
